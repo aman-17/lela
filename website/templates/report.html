@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Lela | My Diet</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/iconmoon.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="../static/style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+		<style>
+			@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  
+  text-rendering: optimizeLegibility;
+}
+
+
+.containerMyDiet {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #e31096;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #ffc0f8;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+		</style>
+	</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a id="branding" class="pull-left">
+						<img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="80px" width= "62px">
+						<h1 class="site-title">Lela</h1>
+					</a>
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation pull-right">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a id="about" href="/about">About me</a></li>
+							<li class="menu-item current-menu-item"><a id="home" href="/">My Diet</a></li>
+							<li class="menu-item"><a id="recipe" href="/recipe">Recipes</a></li>
+							<li class="menu-item"><a id="logoutbutton" href="/logoutbutton">Logout</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</header> <!-- .site-header -->
+
+			<main class="main-content">
+				
+				<div class="content">
+					<div class="container">
+						
+						<h2 class="entry-title">YOUR REPORT</h2>
+
+						<hr>
+            <h2>USER DETAILS</h2>
+            <h3>Name: <i>{{user_namehtml}}</i>, Age: <i>{{agehtml}} years</i>, Gender: <i>{{genderhtml}}</i>, 
+              Height: <i>{{heighthtml}} cm</i>, Weight: <i>{{weighthtml}} kg</i>, Weight Goal: <i>{{weight_goalhtml}} kg.</i></h3>
+              <h3><i>Your BMI is</i> {{bmihtml}} <i>and your weight status is</i> "{{bmi_statushtml}}."</h3>
+            
+              <h2>CALORIES REPORT</h2>              
+            <h3><i>Daily calories you need to maintain your current weight is</i> {{dailycalorieshtml}}.</h3>
+            <h3><i>Daily calories you need to meet </i>{{weight_goalhtml}} kg <i>is</i> {{daily_calories_changehtml}}.</h3>
+            <h2>SUGGESTED MEAL FOR 1 WEEK</h2>
+
+            <h2>Breakfast: </h2>            
+            <h3><i> {{mealreport0html}}</i> </h3>
+            <h3> {{tmealreport0html}}</h3>
+
+
+            <h2>Lunch: </h2>
+            <h3><i> {{mealreport1html}}</i></h3>
+            <h3> {{tmealreport1html}}</h3>
+
+            <h2>Dinner: </h2>
+            <h3><i> {{mealreport2html}}</i></h3>            
+            <h3>{{tmealreport2html}}</h3>
+
+            <h2>{{grandmealreporthtml}}</h2>
+            <h6>*Have these curries with roti or rice.</h6>
+            <h6>*Drink atleast 3-4 liters of water and 250ml of milk daily.</h6>
+            <a href="/reportdownload" target="blank"> <button class="btn btn-default">Download</button></a>
+					</div>
+				</div>
+
+			</main> <!-- .main-content -->
+			
+			<footer class="site-footer">
+				<div class="container">
+					<img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="80px" width= "62px">
+					<nav class="footer-navigation">
+						<a id="about" href="/about">About me</a>
+						<a id="home" href="/">My Diet</a>
+						<a id="recipe" href="/recipe">Recipes</a>
+						<a id="logoutbutton" href="/logoutbutton">Logout</a>
+					</nav>
+					 
+					<div class="colophon">
+						 <p>Copyright 2021 Lela Dietician. Designed by Aman, Ankita & Dhiraj. All right reserved.</p>
+					</div>
+				</div>
+			</footer>
+
+		</div>
+
+		
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
