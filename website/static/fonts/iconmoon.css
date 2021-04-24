@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot?-skypgo');
+	src:url('icomoon.eot?#iefix-skypgo') format('embedded-opentype'),
+		url('icomoon.woff?-skypgo') format('woff'),
+		url('icomoon.ttf?-skypgo') format('truetype'),
+		url('icomoon.svg?-skypgo#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cake:before {
+	content: "\e600";
+}
+.icon-bread:before {
+	content: "\e601";
+}
+.icon-eggs:before {
+	content: "\e602";
+}
+.icon-coffe:before {
+	content: "\e603";
+}
+.icon-tea:before {
+	content: "\e604";
+}
+.icon-bacon:before {
+	content: "\e605";
+}
+.icon-chocolate:before {
+	content: "\e606";
+}
+.icon-cupcake:before {
+	content: "\e607";
+}
+.icon-wheat:before {
+	content: "\e608";
+}
+.icon-oil:before {
+	content: "\e609";
+}
+.icon-watermelon:before {
+	content: "\e60a";
+}
+.icon-chocolate-bar:before {
+	content: "\e60b";
+}
+.icon-honey:before {
+	content: "\e60c";
+}
+.icon-bowl:before {
+	content: "\e60d";
+}
+.icon-cheese:before {
+	content: "\e60e";
+}
