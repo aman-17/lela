@@ -1,0 +1,210 @@
+breakfast1
+Bread/Roti with Egg or Mushroom
+2 cup
+565.5
+----------------------------------------------------
+breakfast1
+Salmon
+2 strips
+200.2
+----------------------------------------------------
+breakfast2
+Fluffy omelet with cheese and spinach
+1 omelet
+545.1
+----------------------------------------------------
+breakfast3
+Scrambled Eggs
+1 serving
+444.9
+----------------------------------------------------
+breakfast4
+Onion and tomato Omelete
+1 Omelet
+300
+----------------------------------------------------
+breakfast4
+Salmon
+2 strips
+200.2
+----------------------------------------------------
+breakfast5
+Fried Cabbage with Salmon
+1 serving
+356
+----------------------------------------------------
+breakfast6
+Basic Scrambled Eggs
+1 serving
+273.1
+----------------------------------------------------
+breakfast7
+Cheese Egg White Omelet
+1 Omelet
+294.9
+----------------------------------------------------
+breakfast8
+Basic Egg White Omelet
+1 Omelet
+228
+----------------------------------------------------
+breakfast8
+Dryfruits
+2 Ounce
+391.8
+----------------------------------------------------
+lunch1
+Protein Shake
+1 shake
+360
+----------------------------------------------------
+lunch1
+Peanut butter with Bread/Roti
+1 serving
+115.1
+----------------------------------------------------
+lunch2
+Spicy chicken dish
+1 serving
+341.7
+----------------------------------------------------
+lunch2
+Protein Shake
+1 shake
+120
+----------------------------------------------------
+lunch3
+Curry Chicken Salad
+1 serving
+196.5
+----------------------------------------------------
+lunch3
+Celery
+2 Stalks
+12.8
+----------------------------------------------------
+lunch4
+Cream Cheese Pickles
+1 Serving
+152.4
+----------------------------------------------------
+lunch5
+Tuna Stuffed Tomato
+1 serving
+346.3
+----------------------------------------------------
+lunch6
+Curry Chicken Salad
+1 serving
+196.5
+----------------------------------------------------
+lunch7
+Curry Chicken Salad
+2 serving
+196.5
+----------------------------------------------------
+lunch8
+Baked Salmon
+1 Serving
+334
+----------------------------------------------------
+dinner1
+Barbeque Chicken
+2 serving
+688.8
+----------------------------------------------------
+dinner1
+Braised Endive
+2 serving
+340.3
+----------------------------------------------------
+dinner2
+Easy Grilled Chicken
+2 serving
+415.8
+----------------------------------------------------
+dinner2
+Carrots
+3 medium sized
+172.2
+----------------------------------------------------
+dinner3
+Barbeque Chicken
+2 serving
+688.8
+----------------------------------------------------
+dinner3
+Easy Fried Spinach
+1 serving
+178.1
+----------------------------------------------------
+dinner3
+Kale Chips
+1 serving
+125.3
+----------------------------------------------------
+dinner4
+Caprese Chicken
+2 Serving
+550.1
+----------------------------------------------------
+dinner4
+Carrots
+3 medium sized
+172.2
+----------------------------------------------------
+dinner5
+Fish Salad
+2 serving
+311.1
+----------------------------------------------------
+dinner5
+Cheese with Radishes
+2 serving
+344.5
+----------------------------------------------------
+dinner5
+Braised Endive
+2 serving
+340.3
+----------------------------------------------------
+dinner6
+Buffalo Chicken Meatballs
+2 serving
+658.5
+----------------------------------------------------
+dinner6
+Mushroom Soup
+2 cup
+200
+----------------------------------------------------
+dinner7
+Teriyaki Garlic Chicken
+2 serving
+378.9
+----------------------------------------------------
+dinner7
+Spinach Recipe
+2 serving
+204.2
+----------------------------------------------------
+dinner7
+Cherry Tomato, Dill & Anchovy Salad
+2 serving
+78.7
+----------------------------------------------------
+dinner8
+Teriyaki Garlic Chicken
+2 serving
+378.9
+----------------------------------------------------
+dinner8
+Spinach Recipe
+2 serving
+204.2
+----------------------------------------------------
+dinner8
+Carrots
+3 medium sized
+258.3
+----------------------------------------------------
