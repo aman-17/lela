@@ -1,0 +1,57 @@
+
+REPORT
+
+USER DETAILS
+
+Name           : Jayanth
+Age            : 18
+Gender         : Male
+Height         : 179cm
+Weight         : 50kg
+Weight Goal    : 50.9kg
+Your BMI is 15.6 and your weight status is Underweight
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 2096
+Daily calories you need to gain weight (0.90kg/week) is 2995
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Bread/Roti with Egg or Mushroom. 
+Amount: 2 cup. 
+Calories: 565.5. 
+
+Meal 2: Salmon. 
+Amount: 2 strips. 
+Calories: 200.2. 
+
+Total Breakfast Calories: 765.7. 
+
+Meal 1  : Protein Shake. 
+Amount: 1 shake. 
+Calories: 360. 
+
+Meal 2  : Peanut butter with Bread/Roti. 
+Amount: 1 serving. 
+Calories: 115.1. 
+
+Total Lunch Calories: 475.1. 
+
+Meal 1: Fish Salad. 
+Amount: 2 serving. 
+Calories: 311.1. 
+
+Meal 2: Cheese with Radishes. 
+Amount: 2 serving. 
+Calories: 344.5. 
+
+Meal 3: Braised Endive. 
+Amount: 2 serving. 
+Calories: 340.3. 
+
+Total Dinner Calories: 995.9. 
+
+TOTAL CALORIES: 2237. 
+

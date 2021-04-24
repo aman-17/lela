@@ -1,0 +1,52 @@
+
+REPORT
+
+USER DETAILS
+
+Name           : Rushali
+Age            : 19
+Gender         : Female
+Height         : 160cm
+Weight         : 50kg
+Weight Goal    : 50.0kg
+Your BMI is 19.5 and your weight status is Normal
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 1835
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Basic Egg White Omelet. 
+Amount: 1 Omelet. 
+Calories: 228. 
+
+Meal 2: Dryfruits. 
+Amount: 2 Ounce. 
+Calories: 391.8. 
+
+Total Breakfast Calories: 619.8. 
+
+Meal 1  : Protein Shake. 
+Amount: 1 shake. 
+Calories: 360. 
+
+Meal 2  : Peanut butter with Bread/Roti. 
+Amount: 1 serving. 
+Calories: 115.1. 
+
+Total Lunch Calories: 475.1. 
+
+Meal 1: Easy Grilled Chicken. 
+Amount: 2 serving. 
+Calories: 415.8. 
+
+Meal 2: Carrots. 
+Amount: 3 medium sized. 
+Calories: 172.2. 
+
+Total Dinner Calories: 588.0. 
+
+TOTAL CALORIES: 1683. 
+

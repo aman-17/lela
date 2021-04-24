@@ -1,0 +1,57 @@
+
+REPORT
+
+USER DETAILS
+
+Name           : Ankita
+Age            : 21
+Gender         : Female
+Height         : 160cm
+Weight         : 55kg
+Weight Goal    : 55.9kg
+Your BMI is 21.5 and your weight status is Normal
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 1888
+Daily calories you need to gain weight (0.90kg/week) is 2787
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Bread/Roti with Egg or Mushroom. 
+Amount: 2 cup. 
+Calories: 565.5. 
+
+Meal 2: Salmon. 
+Amount: 2 strips. 
+Calories: 200.2. 
+
+Total Breakfast Calories: 765.7. 
+
+Meal 1  : Protein Shake. 
+Amount: 1 shake. 
+Calories: 360. 
+
+Meal 2  : Peanut butter with Bread/Roti. 
+Amount: 1 serving. 
+Calories: 115.1. 
+
+Total Lunch Calories: 475.1. 
+
+Meal 1: Barbeque Chicken. 
+Amount: 2 serving. 
+Calories: 688.8. 
+
+Meal 2: Easy Fried Spinach. 
+Amount: 1 serving. 
+Calories: 178.1. 
+
+Meal 3: Kale Chips. 
+Amount: 1 serving. 
+Calories: 125.3. 
+
+Total Dinner Calories: 992.2. 
+
+TOTAL CALORIES: 2233. 
+
