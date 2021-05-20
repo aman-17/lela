@@ -17,10 +17,10 @@ html2text==2019.8.11
 html5lib==1.0.1
 httplib2==0.18.1
 imutils==0.5.3
-matplotlib==3.3.3
-mysqlclient==1.4.4
-numpy==1.19.4
-pandas==1.1.4
-SQLAlchemy==1.3.20
-sqlalchemy-schemadisplay==1.3
-sqlparse==0.2.4
+matplotlib
+mysqlclient
+numpy
+pandas
+SQLAlchemy
+sqlalchemy-schemadisplay
+sqlparse
