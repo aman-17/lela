@@ -12,8 +12,6 @@ def normal_user_view(user_name, age, gender, height, weight, weight_goal, activi
     bmi_no = str("%.1f" % users[user_index].getBMI())
     bmi_status = users[user_index].getBMIStatus()
     daily_calories = users[user_index].getDailyCalories()
-    #cal_maintain = str("%d" % daily_calories)
-    #diff = users[user_index].getWeightDiff()
     daily_calories_change = math.ceil(users[user_index].getCaloriesChange())
     '''
     if diff < 0:
