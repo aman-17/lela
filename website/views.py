@@ -124,10 +124,6 @@ def h_abouthealth():
    
     return render_template("h_abouthealth.html", user=current_user)
 
-@views.route('/h_about', methods=['GET','POST'])
-def h_about():
-   
-    return render_template("h_about.html", user=current_user)
 
 @views.route('/h_gallery', methods=['GET','POST'])
 def h_gallery():
