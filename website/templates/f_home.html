@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+
+<head>
+    <!-- Load Google font on the first <head> to prevent error in IE -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,800,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Burger Bar</title>
+	<meta name="author" content="Burger Bar" />
+	<meta name="description" content="Burger Bar Description" />
+	<meta name="keywords"  content="Burger Bar Keyword" />
+  	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    
+
+    <!-- Using IE Conditional to load stylesheet, Load style.less for all browser except lower than IE 9. Lower than IE9 using style.css -->
+
+    <link rel="stylesheet/less" type="text/css" href="../static/css/style.less" />
+
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+
+
+    <link rel="stylesheet/less" type="text/css" href="../static/css/style.less" />
+
+	
+
+    <script>
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false
+      };
+    </script>
+
+    <script type="text/javascript" src="../static/js/less.min.js"></script>
+    <script type="text/javascript" src="../static/js/retina.min.js"></script>
+	<script type="text/javascript" src="../static/js/modernizr.custom.71422.js"></script>
+</head>
+
+<body>
+    <!-- Main Menu -->
+    <nav class="menu menu-left">
+        <div class="close-menu-btn icon-menu active">&nbsp;</div>    
+        <ul>
+            <li class="active"><a href="/f_home">Home</a></li>
+            <li><a href="/f_about">About Us</a></li>
+            <li><a href="/parentalpregnancy">Parental Pregnancy</a></li>
+            <li><a href="/f_gym">Fitness</a></li>
+            <li><a href="/f_contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Menu Button -->
+    <div class="menu-btn"><span class="icon-menu">&nbsp;</span> Menu</div>
+
+    <!-- Entire area of website, menu will dissaper when this area clicked -->
+    <div class="site-overlay"></div>
+
+    <!-- The main page goes here -->
+    <div id="container">
+
+        <!-- Logo, Lela, and Slogan Area -->
+        <div class="container">
+            <div class="main-container row">
+                <div id="logo">
+                    <a href="/">
+                        <div class="logo-icon"><img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="80px" width= "62px" /></div>
+                        <div class="logo-type">Lela</div>
+                        <div class="logo-slogan">Shape it up!</div> 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider for every page. Slider in homepage using caption and controls, in other page only show image, and in contact page show maps -->
+        <div id="full-width-slider" class="full-width">
+
+            <!-- Triangle top area for slider -->
+            <div class="triangle top"></div>
+
+            <!-- Main slider area -->
+            <div class="inner">
+                <div class="slide">
+                    <div class="inner-slide">
+                        <div class="slide-desc">
+                            <h1>MEDITATION</h1>
+                            <span class="sub-title">
+                                <span class="sub-title-line">&nbsp;</span>
+                                <h2>for calmer mind</h2>
+                                <span class="sub-title-line">&nbsp;</span>
+                                <div class="clear"></div>
+                            </span>
+                            <!-- <h1>Tempus Risus</h1> -->
+                        </div>
+                        <!-- Image width and height automatically adjust depends on window width in js/slider.js -->
+                        <img src="https://cdn.sivanaspirit.com/wp-content/uploads/2017/12/03224242/8efbb046c509878a4794cd7f4905e50b_featured.jpg" width="1980" height="1040">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="inner-slide">
+                        <div class="slide-desc">
+                            <h1>YOGA FOR PREGNANCY</h1>
+                            <span class="sub-title">
+                                <span class="sub-title-line">&nbsp;</span>
+                                <h2>transform energy</h2>
+                                <span class="sub-title-line">&nbsp;</span>
+                                <div class="clear"></div>
+                            </span>
+                            <!-- <h1>Tempus Risus</h1> -->
+                        </div>
+                        <img src=https://www.yogajournal.com/wp-content/uploads/2021/08/Diastasis-Recti-scaled.jpg?crop=535:301&width=1070&enable=upscale width="1980" height="1040">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="inner-slide">
+                        <div class="slide-desc">
+                            <h1>FIT FOR LIFE</h1>
+                            <span class="sub-title">
+                                <span class="sub-title-line">&nbsp;</span>
+                                <h2>sweat up a storm</h2>
+                                <span class="sub-title-line">&nbsp;</span>
+                                <div class="clear"></div>
+                            </span>
+                            <!-- <h1>Tempus Risus</h1> -->
+                        </div>
+                        <img src="https://i.postimg.cc/SRvVPHBX/karsten-winegeart-0-Wra5-YYVQJE-unsplash.jpg" width="1980" height="1040">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slider Control, next and previous button -->
+            <div class="controls">
+                <a href="#" class="left"><span class="icon-slider prev">&nbsp;</span></a>
+                <a href="#" class="right"><span class="icon-slider prev">&nbsp;</span></a>
+            </div>
+
+            <!-- Slider navigation, bullet -->
+            <div class="slide-nav"></div>
+
+            <!-- Triangle bottom area for slider -->
+            <div class="triangle bottom"></div>
+        </div>
+        
+        <!-- Clear used in everypage to fix float problem -->
+        <div class="clear"></div>
+
+        <!-- Container for featured content -->
+        <div class="container">
+            <div id="featured" class="main-container">
+                <div class="row">
+                    <div class="featured-left col">
+                        <div class="title">
+                            <h1>Parental Yoga</h1>
+                            <h2 class="sub-title">Bring the healthiest change in your life by yoga</h2>
+                        </div>
+                        <div class="content">
+                            <p>During pregnancy, your body goes through many changes, which creates stress on you mentally and physically. A way to maintain a healthy mind and body is prenatal yoga because it focuses on poses for pregnant women, in order to increase strength and flexibility. 
+                                It also helps pregnant women to develop proper breathing and relaxation techniques for easier and more comfortable labor. 
+                                Expectant moms often doubt when they have to stop doing yoga, and the answer is: You don’t!  We highly recommend yoga for most pregnant women, both from our personal and professional experiences. Yoga has several benefits that are specific to pregnancy and recovery.</p>
+                        </div>
+                        <div class="button-container">
+                            <a class="button grey-button" href="/parentalpregnancy">Read More</a>
+                        </div>
+                    </div>
+                    <div class="featured-right col">
+                        <div class="featured-image">
+                            <img src="http://www.bairbrecrowley.ie/wp-content/uploads/2011/06/PregnantWoman-506x600.png" height="180px" width= "162px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="triangle top promotion"></div>
+        <!-- Container for promotion content -->
+        <div class="container promotion">
+            <div id="promotion" class="main-container">
+                <div class="row">
+                    <div class="promotion-title col">
+                        <div class="title">
+                            <h1>Fit for life</h1>
+                            <h2 class="sub-title">Don't just work hard. Workout hard!</h2>
+                        </div>
+                    </div>
+                    <div class="promotion-button col">
+                        <div class="button-container">
+                            <a class="button white-button" href="/f_gym">See all workouts</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <ul id="promotion-product" class="row">
+                    <li class="product col">
+                        <div class="promotion-product-container">
+                            <!-- Four dot in promotion box, also used in contact address box in contact page -->
+                            <span class="dot dot-left-top">&nbsp;</span><span class="dot dot-right-top">&nbsp;</span><span class="dot dot-left-bottom">&nbsp;</span><span class="dot dot-right-bottom">&nbsp;</span>
+                            
+                            <!-- Main image for promotion content -->
+                            <div class="promotion-product-image"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/workouts/500/Bodybuilding-512.png"/></a></div>
+                            <div class="promotion-product-desc">
+                                <div class="promotion-product-title"><h4><a href="#">Knee Raise</a></h4></div>
+                                <div class="promotion-product-content content"><p>Helps in resistance of ankles, allowing you to train in a lower rep range.</p></div>
+                            </div>
+                            <div class="price-tag"><span class="price">102 cal</span></div>
+                        </div>
+                    </li>
+                    <li class="product col">
+                        <div class="promotion-product-container">
+                            <div class="promotion-product-container">
+                            <span class="dot dot-left-top">&nbsp;</span><span class="dot dot-right-top">&nbsp;</span><span class="dot dot-left-bottom">&nbsp;</span><span class="dot dot-right-bottom">&nbsp;</span>
+                            <div class="promotion-product-image"><a href="#"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fworkouts%2F500%2Ftricep-512.png&f=1&nofb=1" /></a></div>
+                            <div class="promotion-product-desc">
+                                <div class="promotion-product-title"><h4><a href="#">Tricep kickback</a></h4></div>
+                                <div class="promotion-product-content content"><p>Triceps kickbacks are a simple and effective way to build arm and upper body strength.</p></div>
+                            </div>
+                            <div class="price-tag"><span class="price">94 cal</span></div>
+                        </div>
+                    </li>
+                    <li class="product col">
+                        <div class="promotion-product-container">
+                            <span class="dot dot-left-top">&nbsp;</span><span class="dot dot-right-top">&nbsp;</span><span class="dot dot-left-bottom">&nbsp;</span><span class="dot dot-right-bottom">&nbsp;</span>
+                            <div class="promotion-product-image"><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/workouts/500/push_up-512.png" /></a></div>
+                            <div class="promotion-product-desc">
+                                <div class="promotion-product-title"><h4><a href="#">Push ups</a></h4></div>
+                                <div class="promotion-product-content content"><p>Traditional pushups are beneficial for building upper body strength.</p></div>
+                            </div>
+                            <div class="price-tag"><span class="price">135 cal</span></div>
+                        </div>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+
+            <!-- For fix float problem and give space area with height 90px -->
+            <div class="clear space-area"></div>
+        </div>
+        <div class="triangle bottom promotion"></div>
+        
+        <div class="clear"></div>
+
+        <!-- Latest Updates area for latest news and job boards -->
+        <div class="container latest-updates">
+            <div id="latest-updates" class="main-container">
+                <div class="row">
+                    <div class="latest-news col">
+                        <div class="title">
+                            <h3>News</h1>
+                        </div>
+                        <ul id="list-updates">
+                            <li>
+                                <p class="date">30.07.2014</p>
+                                <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
+                                <a href="#" class="icon-link arrow">&nbsp;</a>
+                            </li>
+                            <li>
+                                <p class="date">24.07.2014</p>
+                                <p>Quisque facilisis elit et tincidunt malesuada.</p>
+                                <a href="#" class="icon-link arrow">&nbsp;</a>
+                            </li>
+                            <li>
+                                <p class="date">14.07.2014</p>
+                                <p>Morbi suscipit rhoncus. Maecenas uteros.</p>
+                                <a href="#" class="icon-link arrow">&nbsp;</a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="button-container">
+                            <a class="button grey-button">See All</a>
+                        </div>
+                    </div>
+                    <div class="job-boards col">
+                        <div class="title">
+                            <!-- <h3>Job Board</h1> -->
+                        </div>
+                        <ul id="list-updates" class="jobs">
+                            <li>
+                                <p class="date">30.07.2014</p>
+                                <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
+                                <a href="#" class="icon-link arrow">&nbsp;</a>
+                            </li>
+                            <li>
+                                <p class="date">24.07.2014</p>
+                                <p>Quisque facilisis elit et tincidunt malesuada.</p>
+                                <a href="#" class="icon-link arrow">&nbsp;</a>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="button-container">
+                            <!-- <a class="button grey-button">See All</a> -->
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <div class="clear space-area"></div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="triangle top footer"></div>
+        <!-- Footer Area -->
+        <div class="container footer">
+            <div id="footer" class="main-container">
+                <div class="footer-top row">
+                    <div class="footer-info col">
+                        <div class="footer-logo">
+                            <div class="logo-icon"><img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="60px" width= "62px" /></div>
+                        </div>
+                        <div class="footer-address">
+                            Lela</br>Sateesh Supari Street, Hyderabad
+                        </div>
+                        <div class="footer-contact">
+                            +91 9876789879<br/><a href="#">contact@lela.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter col">
+                        <div class="footer-newsletter-container">
+                            <form id="subscribe-newsletter">
+                                <input type="email" class="footer-input-text" placeholder="Enter your email to join newsletter..."/>
+                                <input type="submit" class="button grey-button footer-input-submit" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="footer-bottom row">
+                    <div class="footer-copyright col">
+                        <div class="footer-copyright-text">Copyright 2021 Lela Dietician. Designed by Aman. All right reserved.</div>
+                    </div>
+                    <div class="footer-social-media col">
+                        <div class="social-media-icon">
+                            <span class="icon-social-media icon-facebook">&nbsp;</span>
+                            <span class="icon-social-media icon-twitter">&nbsp;</span>
+                            <span class="icon-social-media icon-google">&nbsp;</span>
+                            <span class="icon-social-media icon-pinterest">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+       
+    </div>
+
+
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/pushy.js"></script>
+    <script type="text/javascript" src="../static/js/slider.js"></script>
+    <script type="text/javascript" src="../static/js/fastclick.js"></script>
+    <script type="text/javascript" src="../static/js/script.js"></script>
+</body>

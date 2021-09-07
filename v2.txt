@@ -1,0 +1,61 @@
+1. New home page
+
+    Dietician | Health | Fitness
+
+2. Scroll bar and buttons on "enterdetails.html"
+
+3. Different types of food menus.(Italian, Mexican, Chinease, Indian, Turkish)
+
+4. In Fitness
+
+    Add "workout" and "yoga" videos
+
+5. In Health
+
+    a. Lifestyle
+        1. Culture and tradition
+        2. Diet
+        3. Holidays
+        4. Travel
+        5. Addictions
+
+    b. Allergies and intolerance
+        1. Food Allergies
+
+    c. Weight gain and weight loss
+        1. Eating junk food
+        2. Overweight and obesity
+        3. Tips for weight loss
+    
+    d. Diseases and conditions
+        1. Autism
+        2. Cystic Fibrosis
+        3. Developmental Disabilities
+        4. Cancer
+        5. Celiac Disease
+        6. Diabetes
+        7. Eating Disorders
+        8. HIV AIDs
+        9. Kidney Diseases
+
+    e. Pregnancy
+        1. Breastfeeding
+        2. Fertility and Reproduction
+        3. Prenatal Wellness
+        4. What to Eat When Expecting
+
+    f. Wellness
+        1. Digestive Health
+        2. Fad Diets
+        3. Healthy Aging
+        4. Healthy Habits
+        5. Heart and Cardiovascular Health
+        6. Preventing Illness
+        7. Your Overall Health
+
+    
+
+
+
+References:
+[1] https://www.eatright.org/health

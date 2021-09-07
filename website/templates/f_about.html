@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+
+<head>
+    <!-- Load Google font on the first <head> to prevent error in IE -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,800,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+    <title>Burger Bar</title>
+    <meta name="author" content="Burger Bar" />
+    <meta name="description" content="Burger Bar Description" />
+    <meta name="keywords"  content="Burger Bar Keyword" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    
+
+    <!-- Using IE Conditional to load stylesheet, Load style.less for all browser except lower than IE 9. Lower than IE9 using style.css -->
+
+    <link rel="stylesheet/less" type="text/css" href="../static/css/style.less" />
+
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+
+
+    <link rel="stylesheet/less" type="text/css" href="../static/css/style.less" />
+
+   
+	<style>
+    /* Orange text gradient only for Webkit (Chrome and Safari) */
+    .webkit #our-team h4.sub-title, .webkit #foods h4.sub-title {
+        background: #ef9e10; /* Old browsers */
+        background: -moz-linear-gradient(left,  #ef9e10 40%, #ef6910 60%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right top, color-stop(40%,#ef9e10), color-stop(60%,#ef6910)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left,  #ef9e10 40%,#ef6910 60%); /* IE10+ */
+        background: linear-gradient(to right,  #ef9e10 40%,#ef6910 60%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef9e10', endColorstr='#ef6910',GradientType=1 ); /* IE6-9 */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    </style>
+
+    <!-- Option for Less JS -->
+    <script>
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false
+      };
+    </script>
+    <script type="text/javascript" src="../static/js/less.min.js"></script>
+    <script type="text/javascript" src="../static/js/retina.min.js"></script>
+	<script type="text/javascript" src="../static/js/modernizr.custom.71422.js"></script>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="menu menu-left">
+        <div class="close-menu-btn icon-menu active">&nbsp;</div>    
+        <ul>
+            <li><a href="/f_home">Home</a></li>
+            <li class="active"><a href="/f_about">About Us</a></li>
+            <li><a href="/f_gym">Fitness</a></li>
+            <li><a href="/f_contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="menu-btn"><span class="icon-menu">&nbsp;</span> Menu</div>
+
+    
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <!-- Your Content -->
+    <div id="container">
+
+        <div class="container">
+            <div class="main-container row">
+                <div id="logo">
+                    <a href="/">
+                        <div class="logo-icon"><img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="80px" width= "62px"/></div>
+                        <div class="logo-type">Lela</div>
+                        <div class="logo-slogan">Shape it up!</div> 
+                    </a> 
+                </div>
+            </div>
+        </div>
+
+        <div id="full-width-header" class="full-width">
+            <div class="triangle top"></div>
+            <div class="inner">
+                <div class="slide">
+                    <div class="inner-slide">
+                        <img src="../static/img/single/about.jpg" width="1980" height="560">
+                    </div>
+                </div>
+            </div>
+            <div class="triangle bottom"></div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="container full-page">
+            <div id="about-us" class="main-container">
+                <div class="row">
+                    <div class="main-content col">
+                        <div class="title">
+                            <h1>About Us</h1>
+                        </div>
+                        <div class="intro">
+                            <h2>Suspendisse fermentum, urna et lobortis blandit, lacus enim egestas felis, eget auctor tellus augue quis mauris. In hac habitasse platea dictumst. Aliquam erat volutpat.</h2>
+                        </div>
+                        <div class="content">
+                            <p>Curabitur quis massa sed dui pellentesque dictum vel eu neque. Integer viverra tempus odio sit amet malesuada. Sed mauris dui, mattis mattis semper id, rhoncus eu nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nunc eros, faucibus non pulvinar ac, porta eu lorem. Suspendisse lorem quam, ultrices in libero convallis, ultrices facilisis nisl. Nullam non lectus sed quam vehicula lobortis. Praesent suscipit quis elit in sagittis.</p>
+                            <div class="content-thumbnail half align-left">
+                                <img src="../static/img/single/about-content.jpg"/>
+                            </div>
+                            <p>Suspendisse fermentum, urna et lobortis blandit, lacus enim egestas felis, eget auctor tellus augue quis mauris. In hac habitasse platea dictumst. Aliquam erat volutpat. Aenean mattis, nibh nec fermentum sollicitudin, nunc nulla volutpat urna, sed tempor nisi ante quis quam. Fusce ipsum lectus, gravida in fermentum sed, fermentum in arcu. Nam cursus nisl a arcu laoreet, eu tincidunt felis semper. </p><p>Duis gravida sem ut ligula ultricies mattis. Ut neque augue, accumsan in nunc a, tincidunt vulputate velit. Praesent ornare risus in ante viverra facilisis. Vestibulum auctor porttitor risus et pretium. Curabitur eget odio diam. Ut vitae libero eget neque egestas accumsan at at neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget enim ac purus sagittis luctus pretium vitae elit. Nulla adipiscing magna a ligula dapibus tempus. Ut malesuada ipsum quis dolor faucibus, ac fermentum nulla eleifend. Vestibulum blandit faucibus ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="container full-page">
+            <div id="our-team" class="main-container">
+                <div class="row">
+                    <div class="title col">
+                        <h1>Our Team</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="../static/img/single/our-team-1.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Kevin Smith</h3>
+                            <h4 class="sub-title">Kitchen’s chef</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="../static/img/single/our-team-2.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>David Brown</h3>
+                            <h4 class="sub-title">Taste creator</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="../static/img/single/our-team-3.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>George Marks</h3>
+                            <h4 class="sub-title">Recipe master</h4>
+                        </div>
+                    </div>
+                    <div class="team col">
+                        <div class="team-photo">
+                            <img src="../static/img/single/our-team-4.jpg"/>
+                        </div>
+                        <div class="team-name">
+                            <h3>Peter Robbins</h3>
+                            <h4 class="sub-title">Gourmet</h4>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear space-area"></div>
+        
+        <div class="triangle top footer"></div>
+        <div class="container footer">
+            <div id="footer" class="main-container">
+                <div class="footer-top row">
+                    <div class="footer-info col">
+                        <div class="footer-logo">
+                            <div class="logo-icon"><img src="https://i.postimg.cc/wxfykpRf/lelalogo.png" height="60px" width= "62px" /></div>
+                        </div>
+                        <div class="footer-address">
+                            Lela</br>Sateesh Supari Street, Hyderabad
+                        </div>
+                        <div class="footer-contact">
+                            +91 9876789879<br/><a href="#">contact@lela.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-newsletter col">
+                        <div class="footer-newsletter-container">
+                            <form id="subscribe-newsletter">
+                                <input type="email" class="footer-input-text" placeholder="Enter your email to join newsletter..."/>
+                                <input type="submit" class="button grey-button footer-input-submit" value="Subscribe"/>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="footer-bottom row">
+                    <div class="footer-copyright col">
+                        <div class="footer-copyright-text">Copyright 2021 Lela Dietician. Designed by Aman. All right reserved.</div>
+                    </div>
+                    <div class="footer-social-media col">
+                        <div class="social-media-icon">
+                            <span class="icon-social-media icon-facebook">&nbsp;</span>
+                            <span class="icon-social-media icon-twitter">&nbsp;</span>
+                            <span class="icon-social-media icon-google">&nbsp;</span>
+                            <span class="icon-social-media icon-pinterest">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+       
+    </div>
+
+
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/pushy.js"></script>
+    <script type="text/javascript" src="../static/js/slider.js"></script>
+    <script type="text/javascript" src="../static/js/browser.selector.js"></script>
+    <script type="text/javascript" src="../static/js/fastclick.js"></script>
+    <script type="text/javascript" src="../static/js/script.js"></script>
+</body>

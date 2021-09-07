@@ -1,8 +1,6 @@
 /*!
- * Project_Name:  Aman & Ankita Diatecian Template
- * Author:  Aman & Ankita
- * Email: info@ Aman & Ankita.com
- * URL: http:// Aman & Ankita.com
+ * Project_Name:  Aman  Diatecian Template
+ * Author:  Aman
  */
 /*===========================================  Importing CSS Libraries ===========================================*/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
@@ -94,7 +92,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 *, *:before, *:after { -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* Global Styles */
-body { font-family: "Open Sans", Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.7; background-color: #f2efdc; color: #898670; }
+body { font-family: "Open Sans", Arial, sans-serif; font-size: 16px; font-weight: 300; line-height: 1.7; background-color: #f3f0df; color: #898670; }
 
 a { text-decoration: none; color: #f16a54; font-weight: 400; }
 
@@ -107,7 +105,7 @@ p { margin-top: 0; }
 
 .feature { text-align: center; }
 .feature .feature-icon { width: 250px; height: 250px; border-radius: 50%; text-align: center; margin-bottom: 20px; display: inline-block; padding-top: 70px; }
-.feature .feature-icon [class^="icon-"] { font-size: 100px; font-size: 6.25rem; color: #f2efdc; }
+.feature .feature-icon [class^="icon-"] { font-size: 100px; font-size: 6.25rem; color: #f3f0df; }
 .feature .feature-title { font-size: 24px; font-size: 1.5rem; margin: 0 0 10px; }
 .feature.color-purple .feature-icon { background-color: #48172d; }
 .feature.color-purple .feature-title { color: #48172d; }
@@ -127,7 +125,7 @@ p { margin-top: 0; }
 .contact-form input:not([type="submit"]), .contact-form textarea { width: 100%; padding: 20px; border-radius: 20px; background-color: white; font-size: 14px; font-size: 0.875rem; border: 2px solid white; margin-bottom: 20px; outline: none; -webkit-transition: .3s ease; transition: .3s ease; }
 .contact-form input:not([type="submit"]):hover, .contact-form input:not([type="submit"]):focus, .contact-form textarea:hover, .contact-form textarea:focus { border-color: #f16a54; }
 .contact-form textarea { height: 220px; }
-.contact-form input[type="submit"] { float: right; background-color: #f16a54; color: #f2efdc; padding: 15px 30px; border-radius: 30px; border: none; outline: none; -webkit-transition: .3s ease; transition: .3s ease; }
+.contact-form input[type="submit"] { float: right; background-color: #f16a54; color: #f3f0df; padding: 15px 30px; border-radius: 30px; border: none; outline: none; -webkit-transition: .3s ease; transition: .3s ease; }
 .contact-form input[type="submit"]:hover, .contact-form input[type="submit"]:focus { background-color: #f59383; }
 
 .container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; *zoom: 1; }
@@ -529,11 +527,11 @@ p { margin-top: 0; }
 
 .fruits-section { color: #898670; }
 .fruits-section .category-title { color: #879c29; }
-.fruits-section .button { background-color: #879c29; color: #f2efdc; -webkit-transition: .3s ease; transition: .3s ease; }
+.fruits-section .button { background-color: #879c29; color: #f3f0df; -webkit-transition: .3s ease; transition: .3s ease; }
 .fruits-section .button:hover { background-color: #aac434; }
 
-.vegetables-section { background-color: #879c29; color: #f2efdc; }
-.vegetables-section .button { background-color: #f2efdc; color: #879c29; -webkit-transition: .3s ease; transition: .3s ease; }
+.vegetables-section { background-color: #879c29; color: #f3f0df; }
+.vegetables-section .button { background-color: #f3f0df; color: #879c29; -webkit-transition: .3s ease; transition: .3s ease; }
 .vegetables-section .button:hover { background-color: white; }
 
 .author-bio { padding: 100px 0; }
@@ -602,7 +600,7 @@ p { margin-top: 0; }
 .site-footer .subscribe input { outline: none; }
 .site-footer .subscribe input[type="text"] { width: 100%; padding: 15px 20px; border-radius: 25px; border: 3px solid #e1dece; font-size: 14px; font-size: 0.875rem; -webkit-transition: .3s ease; transition: .3s ease; }
 .site-footer .subscribe input[type="text"]:focus, .site-footer .subscribe input[type="text"]:active { border-color: #f16a54; }
-.site-footer .subscribe input[type="submit"] { position: absolute; right: 6px; top: 6px; background-color: #f16a54; color: #f2efdc; padding: 12px 20px; border-radius: 20px; border: none; font-size: 14px; font-size: 0.875rem; -webkit-transition: .3s ease; transition: .3s ease; }
+.site-footer .subscribe input[type="submit"] { position: absolute; right: 6px; top: 6px; background-color: #f16a54; color: #f3f0df; padding: 12px 20px; border-radius: 20px; border: none; font-size: 14px; font-size: 0.875rem; -webkit-transition: .3s ease; transition: .3s ease; }
 .site-footer .subscribe input[type="submit"]:focus, .site-footer .subscribe input[type="submit"]:active { background-color: #f59383; }
 .site-footer .social-links { padding: 30px 0; }
 .site-footer .social-links a { color: white; text-align: center; line-height: 1.9; width: 50px; height: 50px; border-radius: 50%; display: inline-block; margin: 0 5px; -webkit-transition: .3s ease; transition: .3s ease; font-size: 26px; font-size: 1.625rem; }
