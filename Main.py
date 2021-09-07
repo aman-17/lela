@@ -162,8 +162,8 @@ def getSuggestedMeal(cal,nonveg):
 			text += "Meal " +str(j+1) + "  : " + foods[lunch[lset][j]].name + ". \n"
 			text += "Amount: " + foods[lunch[lset][j]].amount + ". \n"
 			text += "Calories: " + foods[lunch[lset][j]].calories + ". \n\n"
-	texttotal2 += "Total Lunch Calories: " + str("%.1f" % (lsetCal)) + ". \n\n"
-	text += "Total Lunch Calories: " + str("%.1f" % (lsetCal)) + ". \n\n"
+	texttotal2 += "Total Dinner Calories: " + str("%.1f" % (lsetCal)) + ". \n\n"
+	text += "Total Dinner Calories: " + str("%.1f" % (lsetCal)) + ". \n\n"
 	# Dinner Foods
 	minDiff = 9999999
 	for i in range(0, len(dinner)):
@@ -186,8 +186,8 @@ def getSuggestedMeal(cal,nonveg):
 			text += "Meal " +str(j+1) + ": " + foods[dinner[dset][j]].name + ". \n"
 			text += "Amount: " + foods[dinner[dset][j]].amount + ". \n"
 			text += "Calories: " + foods[dinner[dset][j]].calories + ". \n\n"
-	texttotal3 += "Total Dinner Calories: " + str("%.1f" % (dsetCal)) + ". \n"
-	text += "Total Dinner Calories: " + str("%.1f" % (dsetCal)) + ". \n\n"
+	texttotal3 += "Total Lunch Calories: " + str("%.1f" % (dsetCal)) + ". \n"
+	text += "Total Lunch Calories: " + str("%.1f" % (dsetCal)) + ". \n\n"
 	totalMealCal = math.ceil(bsetCal + lsetCal + dsetCal)	
 	grandtotal += "TOTAL CALORIES: " +str(totalMealCal) + ". \n"
 	text += "TOTAL CALORIES: " +str(totalMealCal) + ". \n"	
