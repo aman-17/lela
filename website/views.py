@@ -2,13 +2,11 @@ from os import abort
 from flask import Blueprint, render_template, request, flash, jsonify, redirect, url_for, send_file
 from flask_login import login_required, current_user
 from flask.globals import session
-from .models import Note
-from . import db
 import json
 from website import create_app
 from classes.User import User
 from main import getSuggestedMeal, normal_user_view
-from .auth import login_is_required
+
 
 
 views = Blueprint('views', __name__)
