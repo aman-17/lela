@@ -20,6 +20,3 @@ imutils==0.5.3
 matplotlib
 numpy
 pandas
-SQLAlchemy
-sqlalchemy-schemadisplay
-sqlparse
