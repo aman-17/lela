@@ -14,7 +14,7 @@ from classes.User import User
 from classes.Report import Report
 from classes.Food import Food
 
-views = Blueprint('views',__name__,template_folder="templates/")
+views = Blueprint('views',__name__,template_folder="templates/",static_folder="../static/")# static_url_path="/static")
 
 @views.route('/', methods=['GET','POST'])
 # @login_required
@@ -184,8 +184,14 @@ def h_gal_sub_lifestyle():
 
 @views.route('/h_gal_sub_environment', methods=['GET','POST'])
 def h_gal_sub_environment():
-   
+    print("called")
     return render_template("h_gal_sub_environment.html", user=current_user)
+
+# @views.route('/static/<path:filename>', methods = ["GET","POST"])
+# def serve_static(filename):
+#     root_dir = os.path.dirname(os.getcwd())
+#     print("Called Static File")
+#     return send_file(os.path.join(root_dir, 'static'), filename)
 
 def login_is_required(function):
     def wrapper(*args, **kwargs):
