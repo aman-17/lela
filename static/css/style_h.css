@@ -1557,8 +1557,8 @@ input.white[type=submit]:hover{
 
 @media (-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#logo {
-		width: 142px;
-		height: 60px;
+		width: 132px;
+		height: 70px;
 		padding-top: 72px;
 		background: url(https://i.postimg.cc/wxfykpRf/lelalogo.png) no-repeat;
 		background-size: 90px 92px;
