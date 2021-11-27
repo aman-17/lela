@@ -5,7 +5,7 @@
   </div> -->
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,9 +16,112 @@
 </head>
 <body>
     <div class="flex">
+        <a href="/f_home"><div class="block"><h2>Fitness</h2></div></a>
         <a href="/index"><div class="block"><h2>Dietician</h2></div></a>
         <a href="/h_index"><div class="block"><h2>Exercise</h2></div></a>
-        <a href="/f_home"><div class="block"><h2>Fitness</h2></div></a>
+
       </div>  
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        html,body{
+            margin:0;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Lato', sans-serif;
+            font-size: 50px;
+        }
+        .div3{
+            display: inline-block;
+            height:100%;
+            width: 33%;
+            margin: 0px;
+            background-size: cover;
+            background-image: url(https://images.unsplash.com/photo-1562751362-404243c2eea3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+        }
+        .div2{
+            display: inline-block;
+            height:100%;
+            width: 33%;
+            margin: 0px;
+            background-size: cover;
+            background-image: url(https://images.unsplash.com/photo-1501959915551-4e8d30928317?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+        }
+        .div1{
+            display: inline-block;
+            height:100%;
+            width: 32%;
+            margin: 0px;
+            background-size: cover;
+            background-image: url(https://images.unsplash.com/photo-1633707236776-1188a396f223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+        }
+        div:hover{
+            box-shadow: 10px 10px grey;
+        }
+        .fitness_title{
+            position: absolute;
+            top: 40%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+        }
+        .diet_title{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .health_title{
+            position: absolute;
+            top: 40%;
+            left: 83%;
+            transform: translate(-50%, -50%);
+        }
+        a {
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 0%;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+a:hover{
+    content: "Click Me!";
+    transition: 0.5s;
+    text-shadow: 10px 10px 0 rgb(61, 185, 88),
+                 15px 15px 0 rgb(197, 221, 63),
+                 20px 20px 0 rgb(250, 166, 56);
+}
+    </style>
+</head>
+<body>
+    <a href="/f_home">
+        <div class="div1">
+            <p class="fitness_title">Fitness</p>
+        </div>
+    </a>
+    
+    <a href="/index">
+        <div class="div2">
+            <p class="diet_title">Dietician</p>
+        </div>
+    </a>
+    <a href="/h_index">
+        <div class="div3">
+            <p class="health_title">Health</p>
+        </div>
+    </a>
 </body>
 </html>

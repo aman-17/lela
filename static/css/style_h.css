@@ -1754,3 +1754,15 @@ input.white[type=submit]:hover{
 		}
 	}
 }
+
+
+.hide {
+display: none;
+}	
+.myDIV:hover + .hide {
+display: inline;
+color: yellow;
+background-color: black;
+box-shadow:10px 10px;
+}
+
