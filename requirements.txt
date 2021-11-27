@@ -20,3 +20,6 @@ imutils==0.5.3
 matplotlib
 numpy
 pandas
+opencv-python
+Pillow
+mediapipe

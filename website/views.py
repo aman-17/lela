@@ -184,7 +184,7 @@ def h_gal_sub_lifestyle():
 
 @views.route('/h_gal_sub_environment', methods=['GET','POST'])
 def h_gal_sub_environment():
-    print("called")
+    
     return render_template("h_gal_sub_environment.html", user=current_user)
 
 # @views.route('/static/<path:filename>', methods = ["GET","POST"])
@@ -192,6 +192,128 @@ def h_gal_sub_environment():
 #     root_dir = os.path.dirname(os.getcwd())
 #     print("Called Static File")
 #     return send_file(os.path.join(root_dir, 'static'), filename)
+
+
+@views.route('/h_gallery_animals', methods=['GET','POST'])
+def h_gallery_animals():
+    
+    return render_template("h_gallery_animals.html", user=current_user)
+
+@views.route('/h_gallery_diet', methods=['GET','POST'])
+def h_gallery_diet():
+    
+    return render_template("h_gallery_diet.html", user=current_user)
+
+@views.route('/h_gallery_environment', methods=['GET','POST'])
+def h_gallery_environment():
+    
+    return render_template("h_gallery_environment.html", user=current_user)
+
+@views.route('/h_gallery_fitness', methods=['GET','POST'])
+def h_gallery_fitness():
+    
+    return render_template("h_gallery_fitness.html", user=current_user)
+
+@views.route('/h_gallery_friends', methods=['GET','POST'])
+def h_gallery_friends():
+    
+    return render_template("h_gallery_friends.html", user=current_user)
+
+@views.route('/h_gallery_fruits', methods=['GET','POST'])
+def h_gallery_fruits():
+    
+    return render_template("h_gallery_fruits.html", user=current_user)
+
+@views.route('/h_gallery_gender', methods=['GET','POST'])
+def h_gallery_gender():
+    
+    return render_template("h_gallery_gender.html", user=current_user)
+
+@views.route('/h_gallery_heartbreak', methods=['GET','POST'])
+def h_gallery_heartbreak():
+    
+    return render_template("h_gallery_heartbreak.html", user=current_user)
+
+@views.route('/h_gallery_indoorsports', methods=['GET','POST'])
+def h_gallery_indoorsports():
+    
+    return render_template("h_gallery_indoorsports.html", user=current_user)
+
+@views.route('/h_gallery_keeptabs', methods=['GET','POST'])
+def h_gallery_keeptabs():
+    
+    return render_template("h_gallery_keeptabs.html", user=current_user)
+
+@views.route('/h_gallery_love', methods=['GET','POST'])
+def h_gallery_love():
+    
+    return render_template("h_gallery_love.html", user=current_user)
+
+@views.route('/h_gallery_music', methods=['GET','POST'])
+def h_gallery_music():
+    
+    return render_template("h_gallery_music.html", user=current_user)
+
+@views.route('/h_gallery_nature', methods=['GET','POST'])
+def h_gallery_nature():
+    
+    return render_template("h_gallery_nature.html", user=current_user)
+
+@views.route('/h_gallery_outdoorsports', methods=['GET','POST'])
+def h_gallery_outdoorsports():
+    
+    return render_template("h_gallery_outdoorsports.html", user=current_user)
+
+@views.route('/h_gallery_personalhealth', methods=['GET','POST'])
+def h_gallery_personalhealth():
+    
+    return render_template("h_gallery_personalhealth.html", user=current_user)
+
+@views.route('/h_gallery_pets', methods=['GET','POST'])
+def h_gallery_pets():
+    
+    return render_template("h_gallery_pets.html", user=current_user)
+
+@views.route('/h_gallery_pregnancy', methods=['GET','POST'])
+def h_gallery_pregnancy():
+    
+    return render_template("h_gallery_pregnancy.html", user=current_user)
+
+@views.route('/h_gallery_education', methods=['GET','POST'])
+def h_gallery_education():
+    
+    return render_template("h_gallery_education.html", user=current_user)
+
+@views.route('/h_gallery_technology', methods=['GET','POST'])
+def h_gallery_technology():
+    
+    return render_template("h_gallery_technology.html", user=current_user)
+
+@views.route('/h_gallery_travel', methods=['GET','POST'])
+def h_gallery_travel():
+    
+    return render_template("h_gallery_travel.html", user=current_user)
+
+@views.route('/h_gallery_water', methods=['GET','POST'])
+def h_gallery_water():
+    
+    return render_template("h_gallery_water.html", user=current_user)
+
+@views.route('/h_gallery_watersports', methods=['GET','POST'])
+def h_gallery_watersports():
+    
+    return render_template("h_gallery_watersports.html", user=current_user)
+
+@views.route('/h_gallery_work', methods=['GET','POST'])
+def h_gallery_work():
+    
+    return render_template("h_gallery_work.html", user=current_user)
+
+@views.route('/h_gallery_yoga', methods=['GET','POST'])
+def h_gallery_yoga():
+    
+    return render_template("h_gallery_yoga.html", user=current_user)
+
 
 def login_is_required(function):
     def wrapper(*args, **kwargs):
