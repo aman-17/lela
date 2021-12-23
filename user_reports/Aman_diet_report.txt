@@ -7,13 +7,13 @@ Name           : Aman
 Age            : 20
 Gender         : Male
 Height         : 177cm
-Weight         : 55kg
-Weight Goal    : 55.8kg
-Your BMI is 17.6 and your weight status is Underweight
+Weight         : 58kg
+Weight Goal    : 58.8kg
+Your BMI is 18.5 and your weight status is Normal
 
 CALORIES REPORT
-Daily calories you need to maintain your current weight is 2707
-Daily calories you need to gain weight (0.80kg/week) is 3506
+Daily calories you need to maintain your current weight is 2778
+Daily calories you need to gain weight (0.80kg/week) is 3577
 
 SUGGESTED MEAL
 
@@ -37,7 +37,7 @@ Meal 2  : Peanut butter with Bread/Roti.
 Amount: 1 serving. 
 Calories: 115.1. 
 
-Total Lunch Calories: 475.1. 
+Total Dinner Calories: 475.1. 
 
 Meal 1: Barbeque Chicken. 
 Amount: 2 serving. 
@@ -47,7 +47,7 @@ Meal 2: Braised Endive.
 Amount: 2 serving. 
 Calories: 340.3. 
 
-Total Dinner Calories: 1029.1. 
+Total Lunch Calories: 1029.1. 
 
 TOTAL CALORIES: 2270. 
 

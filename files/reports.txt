@@ -11401,3 +11401,109 @@ Total Dinner Calories: 1029.1.
 
 TOTAL CALORIES: 2270. 
 
+
+REPORT
+
+USER DETAILS
+
+Name           : Aman
+Age            : 20
+Gender         : Male
+Height         : 177cm
+Weight         : 58kg
+Weight Goal    : 58.8kg
+Your BMI is 18.5 and your weight status is Normal
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 2778
+Daily calories you need to gain weight (0.80kg/week) is 3577
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Bread/Roti with Egg or Mushroom. 
+Amount: 2 cup. 
+Calories: 565.5. 
+
+Meal 2: Salmon. 
+Amount: 2 strips. 
+Calories: 200.2. 
+
+Total Breakfast Calories: 765.7. 
+
+Meal 1  : Protein Shake. 
+Amount: 1 shake. 
+Calories: 360. 
+
+Meal 2  : Peanut butter with Bread/Roti. 
+Amount: 1 serving. 
+Calories: 115.1. 
+
+Total Dinner Calories: 475.1. 
+
+Meal 1: Barbeque Chicken. 
+Amount: 2 serving. 
+Calories: 688.8. 
+
+Meal 2: Braised Endive. 
+Amount: 2 serving. 
+Calories: 340.3. 
+
+Total Lunch Calories: 1029.1. 
+
+TOTAL CALORIES: 2270. 
+
+
+REPORT
+
+USER DETAILS
+
+Name           : Aman
+Age            : 20
+Gender         : Male
+Height         : 177cm
+Weight         : 58kg
+Weight Goal    : 58.8kg
+Your BMI is 18.5 and your weight status is Normal
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 2778
+Daily calories you need to gain weight (0.80kg/week) is 3577
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Bread/Roti with Egg or Mushroom. 
+Amount: 2 cup. 
+Calories: 565.5. 
+
+Meal 2: Salmon. 
+Amount: 2 strips. 
+Calories: 200.2. 
+
+Total Breakfast Calories: 765.7. 
+
+Meal 1  : Protein Shake. 
+Amount: 1 shake. 
+Calories: 360. 
+
+Meal 2  : Peanut butter with Bread/Roti. 
+Amount: 1 serving. 
+Calories: 115.1. 
+
+Total Dinner Calories: 475.1. 
+
+Meal 1: Barbeque Chicken. 
+Amount: 2 serving. 
+Calories: 688.8. 
+
+Meal 2: Braised Endive. 
+Amount: 2 serving. 
+Calories: 340.3. 
+
+Total Lunch Calories: 1029.1. 
+
+TOTAL CALORIES: 2270. 
+
