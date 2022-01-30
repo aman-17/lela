@@ -1,6 +1,6 @@
 # Lela
 
-### [Click here to use lela](https://lela-dietician.herokuapp.com)
+### [Click here to use Lela](https://lela-dietician.herokuapp.com)
 
 ## ABSTRACT
 This application provides the user with a complex algorithm which can provide the user with a diet plan based on his/her characteristics like height, weight, BMI etc. In Today's busy life everyone can just dream of having a proper balanced diet. A balanced diet is important because your organs and tissues need proper nutrition to work effectively. Without good nutrition, your body is more prone to disease, infection, fatigue, and poor performance. Children with a poor diet run the risk of growth and developmental problems and poor academic performance, and bad eating habits can persist for the rest of their lives. At the core of a balanced diet are foods that are low in unnecessary fats and sugars and high in vitamins, minerals, and other nutrients. The following food groups are essential parts of a balanced diet. Calories play a vital role in our growth and energy. A good diet can help you manipulate calorie intake based on your requirements. The proposed application will provide the user with a user-friendly User-Interface where they can create an account, manage their account and get the diet by the click of just one button. This webpage will save a lot of user’s time by not actually visiting a dietitian and getting everything done on their phone/laptop.
