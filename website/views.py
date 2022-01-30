@@ -332,71 +332,62 @@ def h_gallery_yoga():
     
     return render_template("h_gallery_yoga.html", user=current_user)
 
-@views.route('/poses', methods=['GET'])
-def poses():
-    return render_template('poses.html')
+# @views.route('/poses', methods=['GET'])
+# def poses():
+#     return render_template('poses.html')
 
-@views.route('/poses/<pose_id>', methods=['GET'])
-def pose(pose_id):
-    # select * from poses where id = pose_id
-    pose_name = "Warrior II"
-    pose_desc = "Good choice. Warrior II is a great pose to open your hips," \
-        + " chest, and shoulders while strengthening your leg and abdomen."
-    return render_template('pose.html',
-                           pose_name=pose_name,
-                           pose_desc=pose_desc)
-
-
-@views.route('/video', methods=['POST'])
-def video():
-    if request.method == 'POST':
-        file = request.files['file']
-
-        filename = 'move'
-		#filename = secure_filename(file.filename)
-        print(type(file))
-        file.save(os.path.join(views.config['UPLOAD_FOLDER'], filename))
-        print(filename, views.config['UPLOAD_FOLDER'])
-        timestr = time.strftime("%Y%m%d-%H%M%S")
-        local_path = f"/tmp/user_video_{timestr}.avi"
-
-        ff = ffmpy.FFmpeg(inputs={os.path.join(
-                                  views.config['UPLOAD_FOLDER'],
-                                  filename): None},
-                          outputs={local_path: '-q:v 0 -vcodec mjpeg -r 30'})
-        ff.run()
-        timestr = time.strftime("%Y%m%d-%H%M%S")
-        # filepath = push2s3(name, '') #filename without tmp
-
-        # Process video with openpose on same server & return df
-        df = process_openpose(local_path)
-        # pull csv from s3, run through rules-based system
-        labels, values = warrior2_label_csv(df)
-        # user = load_user(uid)
-        # user.labels = labels
-        comma_separated = ','.join([str(int(c)) for c in labels])
-        print(comma_separated)
-        return url_for('feedback', labels_str=comma_separated)
-    # return render_template('video.html')
-
-# @application.route('/audio')
-# def done_audio():
-#     return send_file('done.m4a',
-#                      mimetype="audio/m4a",
-#                      as_atachment=True,
-#                      attachment_filename='done.m4a')
+# @views.route('/poses/<pose_id>', methods=['GET'])
+# def pose(pose_id):
+#     # select * from poses where id = pose_id
+#     pose_name = "Warrior II"
+#     pose_desc = "Good choice. Warrior II is a great pose to open your hips," \
+#         + " chest, and shoulders while strengthening your leg and abdomen."
+#     return render_template('pose.html',
+#                            pose_name=pose_name,
+#                            pose_desc=pose_desc)
 
 
-@views.route('/feedback/<labels_str>', methods=['GET'])
-@login_required
-def feedback(labels_str):
-    labels = list(labels_str.split(','))
-    labels = [int(float(c)) for c in labels]
-    pose_name = "Warrior II"
-    # feedback = ProcessLabel.to_text([1, 1, 1, 1, 0, 0, 0, 0, 0])
-    feedback_text = ProcessLabel.to_text(labels)
-    return render_template('feedback.html',
-                           feedback=feedback_text, pose_name=pose_name)
+# @views.route('/video', methods=['POST'])
+# def video():
+#     if request.method == 'POST':
+#         file = request.files['file']
+
+#         filename = 'move'
+# 		#filename = secure_filename(file.filename)
+#         print(type(file))
+#         file.save(os.path.join(views.config['UPLOAD_FOLDER'], filename))
+#         print(filename, views.config['UPLOAD_FOLDER'])
+#         timestr = time.strftime("%Y%m%d-%H%M%S")
+#         local_path = f"/tmp/user_video_{timestr}.avi"
+
+#         ff = ffmpy.FFmpeg(inputs={os.path.join(
+#                                   views.config['UPLOAD_FOLDER'],
+#                                   filename): None},
+#                           outputs={local_path: '-q:v 0 -vcodec mjpeg -r 30'})
+#         ff.run()
+#         timestr = time.strftime("%Y%m%d-%H%M%S")
+#         # filepath = push2s3(name, '') #filename without tmp
+
+#         # Process video with openpose on same server & return df
+#         df = process_openpose(local_path)
+#         # pull csv from s3, run through rules-based system
+#         labels, values = warrior2_label_csv(df)
+#         # user = load_user(uid)
+#         # user.labels = labels
+#         comma_separated = ','.join([str(int(c)) for c in labels])
+#         print(comma_separated)
+#         return url_for('feedback', labels_str=comma_separated)
+#     # return render_template('video.html')
+
+# # @application.route('/audio')
+# # def done_audio():
+# #     return send_file('done.m4a',
+# #                      mimetype="audio/m4a",
+# #                      as_atachment=True,
+# #                      attachment_filename='done.m4a')
+
+
+
 
 
 
